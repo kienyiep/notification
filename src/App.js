@@ -17,10 +17,13 @@ function App() {
       <button className="btn btn-react" onClick={() => onHandleTag("react")}>
         react
       </button>
-      <button className="btn btn-angular" onClick={() => onHandleTag("react")}>
+      <button
+        className="btn btn-angular"
+        onClick={() => onHandleTag("angular")}
+      >
         angular
       </button>
-      <button className="btn btn-vue" onClick={() => onHandleTag("react")}>
+      <button className="btn btn-vue" onClick={() => onHandleTag("vue")}>
         vue
       </button>
     </div>
