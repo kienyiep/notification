@@ -13,8 +13,35 @@ code {
 }
 
 .tags {
-  width: 12.5rem;
+  width: 40rem;
   display: flex;
   justify-content: space-between;
-  margin: 6.25rem 56.25rem;
+  margin: 6.25rem 40rem;
+}
+
+.btn {
+  width: 10rem;
+  background-color: #ffffff;
+  transition: all 0.2s;
+  border: 1px solid #0000003e;
+  border-radius: 0.3125rem;
+}
+
+.btn-java:hover,
+.btn-java:active {
+  background-color: #3f8bef;
+  color: white;
+  border-color: #3f8bef;
+}
+.btn-ruby:hover,
+.btn-ruby:active {
+  background: #f24b4b;
+  color: white;
+  border-color: #f24b4b;
+}
+.btn-python:hover,
+.btn-python:active {
+  background: #1ec556;
+  color: white;
+  border-color: #1ec556;
 }

@@ -8,22 +8,17 @@ function App() {
   });
   const onHandleTag = (tag) => {
     console.log("tagging");
-    OneSignal.sendTag("tech", tag).then(() => {
-      console.log("Tagged");
-    });
+    OneSignal.sendTag("language", tag);
   };
   return (
     <div className="tags">
-      <button className="btn btn-react" onClick={() => onHandleTag("react")}>
+      <button className="btn btn-java" onClick={() => onHandleTag("Java")}>
         react
       </button>
-      <button
-        className="btn btn-angular"
-        onClick={() => onHandleTag("angular")}
-      >
+      <button className="btn btn-ruby" onClick={() => onHandleTag("Ruby")}>
         angular
       </button>
-      <button className="btn btn-vue" onClick={() => onHandleTag("vue")}>
+      <button className="btn btn-python" onClick={() => onHandleTag("Python")}>
         vue
       </button>
     </div>
