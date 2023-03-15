@@ -13,13 +13,13 @@ function App() {
   return (
     <div className="tags">
       <button className="btn btn-java" onClick={() => onHandleTag("Java")}>
-        react
+        Java
       </button>
       <button className="btn btn-ruby" onClick={() => onHandleTag("Ruby")}>
-        angular
+        Ruby
       </button>
       <button className="btn btn-python" onClick={() => onHandleTag("Python")}>
-        vue
+        Python
       </button>
     </div>
   );
