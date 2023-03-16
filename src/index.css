@@ -15,8 +15,10 @@ code {
 .tags {
   width: 40rem;
   display: flex;
+  position: absolute;
   justify-content: space-between;
-  margin: 6.25rem 40rem;
+  margin: 6.25rem 50%;
+  right: -25%;
 }
 
 .btn {
